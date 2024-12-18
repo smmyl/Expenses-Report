@@ -5,14 +5,6 @@ import Name from './components/Name.js'
 
 
 function App() {
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    fetch('/api/Name/')
-      .then(response => response.json())
-      .then(data => setData(data));
-  }, [])
-
     return (
       <div className="App">
         <header className="App-header">
