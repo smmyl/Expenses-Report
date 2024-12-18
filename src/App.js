@@ -1,7 +1,7 @@
 import './App.css';
-import './components/Name.js'
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import Name from './components/Name.js'
 
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
         <header className="App-header">
           <h1>ExpensesReport</h1>
         </header>
+        <Name/>
       </div>
   );
 }
