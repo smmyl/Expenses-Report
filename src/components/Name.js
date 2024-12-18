@@ -11,7 +11,6 @@ const Name = (props) => {
                 <p class='button'>
                     <button type='submit'>Add Name</button>
                 </p>
-
             </form>
         </div>
     )
